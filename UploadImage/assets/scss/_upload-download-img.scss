@@ -1,0 +1,55 @@
+.container {
+    margin-top: 5%;
+
+    .row {
+        .upload-area {
+            border: 2px dashed red;
+            height: 300px;
+            width: 100%;
+
+            i {
+                color: red;
+                margin: 10% 50%;
+                font-size: 33px;
+            }
+            .img-input{
+                display: none;
+            }
+        }
+
+        .uploaded-imgs {
+            margin-top: 5%;
+            display: flex;
+
+            .post {
+                padding: 1% 10px;
+                
+                .post-img{
+                    img {
+                        border-radius: 5px;
+                        width: 100%;
+                    }
+                }
+                .img-download{
+                    margin-top: 5%;
+                    border: 2px solid rgb(19, 188, 19);
+                    border-radius: 5px;
+                    color: rgb(19, 188, 19);
+                    display: flex;
+                    justify-content: center;
+                    padding: 4px;
+                    #downloadImg {
+                        border: none;
+                        text-decoration: none;
+                        background-color:  #fff;
+                        color: rgb(19, 188, 19);
+                        i {
+                            margin-top: 4px;
+                            margin-left: 4px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
